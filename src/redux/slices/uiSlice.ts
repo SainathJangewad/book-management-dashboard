@@ -1,4 +1,5 @@
 import { configureStore, createSlice,type PayloadAction } from "@reduxjs/toolkit";
+import type { store } from "../store";
 
 interface UIState {
   search: string;
@@ -12,7 +13,7 @@ const initialState: UIState = {
   status: "",
 };
 
-const uiSlice = createSlice({
+export const uiSlice = createSlice({
   name: "ui",
   initialState,
   reducers: {
@@ -29,10 +30,6 @@ const uiSlice = createSlice({
 });
 
 export const { setSearch, setGenre, setStatus } = uiSlice.actions;
-
-export const store = configureStore({
-  reducer: { ui: uiSlice.reducer },
-});
 
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;

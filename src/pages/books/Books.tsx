@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Input, Button, Select, Row, Col, Empty, App, Pagination } from "antd";
 import { useBooks, useDeleteBook } from "../../hooks/useBooks";
 import { useSelector, useDispatch } from "react-redux";
-import { type RootState, setSearch, setGenre, setStatus } from "../../store/uiSlice";
+import { type RootState, setSearch, setGenre, setStatus } from "../../redux/slices/uiSlice";
 import BookForm from "../../components/BookForm";
 import ConfirmDelete from "../../components/ConfirmDelete";
 import BookCard from "../../components/BookCard";

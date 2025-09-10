@@ -3,11 +3,11 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { Provider } from "react-redux";
-import { store } from "./store/uiSlice";
 import { App as AntdApp } from "antd";
 import "antd/dist/reset.css";
 import "./styles/global.scss";
 import App from "./App";
+import { store } from "./redux/store";
 
 const queryClient = new QueryClient();
 

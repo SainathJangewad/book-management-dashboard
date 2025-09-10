@@ -1,7 +1,8 @@
 import { Card, Button, Space, Tag } from "antd";
+import type { Book } from "../types";
 
 interface BookCardProps {
-    book: any;
+    book: Book;
     onEdit: () => void;
     onDelete: () => void;
 }

@@ -5,6 +5,7 @@ import { z } from "zod";
 import { useAddBook, useUpdateBook } from "../hooks/useBooks";
 import { useEffect } from "react";
 import dayjs from "dayjs";
+import type { Book } from "../types";
 
 const schema = z.object({
     title: z.string().min(1, "Title is required"),
@@ -16,7 +17,7 @@ const schema = z.object({
 
 export type BookFormData = z.infer<typeof schema>;
 
-export default function BookForm({ book, onClose }: { book: any; onClose: () => void }) {
+export default function BookForm({ book, onClose }: { book: Book; onClose: () => void }) {
     const add = useAddBook();
     const update = useUpdateBook();
     const { notification } = App.useApp();
