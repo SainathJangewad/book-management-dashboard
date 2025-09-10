@@ -1,0 +1,84 @@
+{
+  "books": [
+    {
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt",
+      "genre": "Programming",
+      "year": 1997,
+      "status": "Issued",
+      "id": 2
+    },
+    {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self-Help",
+      "year": 2019,
+      "status": "Available",
+      "id": 4
+    },
+    {
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "genre": "History",
+      "year": 2013,
+      "status": "Issued",
+      "id": 5
+    },
+    {
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Fiction",
+      "year": 1968,
+      "status": "Available",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Sci-Fi",
+      "year": 1965,
+      "status": "Available"
+    },
+    {
+      "id": 8,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Sci-Fi",
+      "year": 1965,
+      "status": "Available"
+    },
+    {
+      "id": 9,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Sci-Fi",
+      "year": 1965,
+      "status": "Available"
+    },
+    {
+      "id": 10,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Sci-Fi",
+      "year": 1965,
+      "status": "Available"
+    },
+    {
+      "id": 11,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Sci-Fi",
+      "year": 1965,
+      "status": "Available"
+    },
+    {
+      "id": 12,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Sci-Fi",
+      "year": 1965,
+      "status": "Available"
+    }
+  ]
+}
